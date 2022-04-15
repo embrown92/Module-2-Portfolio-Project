@@ -106,7 +106,7 @@ section {
 /*---SECTION STYLE START---*/
 
 
-/*---About-Me Style Start---*/
+/*---Hero Style Start---*/
 
 .intro {
     height: auto;
@@ -153,11 +153,72 @@ section {
 .illustrator:hover {
     color: #a06138;
 }
+/*---Hero Style End---*/
 
 
 
-/*---About Me Style End---*/
-
+/*---What You Do Style Start---*/
+.skill-list {
+    background-image: url("../images/about-bg.png");
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .skill {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+  
+  .skill:last-child {
+    border-bottom: none;
+  }
+  
+  .skill h3 {
+    color: #024e76;
+    font-size: 5vw;
+    flex: 1 30%;
+  }
+  
+  .skill-text p {
+    color: var(--tertiary-color);
+    font-size: 18px;
+  }
+  
+  .skill-text h4 {
+    font-size: 4vw;
+    line-height: 1.5;
+    color: var(--secondary-color);
+  }
+  
+  .skill-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .skill-img {
+    flex: 1 12%;
+    margin-right: 20px;
+  }
+  
+  .skill-text {
+    flex: 12;
+  }
+  
+  .skill-img img {
+    max-width: 100%;
+  }
+  /*---What You Do Style End---*/
 
 
 /*---Some of My Work Style Start---*/
