@@ -8,7 +8,7 @@ A website that showcases my skills, and work.
 * CSS
 
 ## Website
-https://embrown92.github.io/Module-2-Portfolio-Project/
+https://embrown92.github.io/Portfolio-Project/
 
 ## Contribution
 Made with ❤️ by [Eda Mae Brown]
